@@ -2,9 +2,9 @@ import json
 import requests
 import os
 
-jcenter_url = os.environ.get('JCENTER_URL')
-instance_user = os.environ.get('INSTANCE_USER')
-instance_password = os.environ.get('INSTANCE_PASSWORD')
+jcenter_url = os.environ.get('ART_URL')
+instance_user = os.environ.get('ART_USER')
+instance_password = os.environ.get('ART_PASSWORD')
 
 def open_misc_file():
     with open('./packages.json') as mf:
